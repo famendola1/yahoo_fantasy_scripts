@@ -102,7 +102,7 @@ func main() {
 
 	// Print the ranked players
 	for i, p := range players {
-		fmt.Printf("#%v. %v: %v\n", i, p.Name, p.Points)
+		fmt.Printf("#%v %v: %v\n", i+1, p.Name, p.Points)
 	}
 }
 
